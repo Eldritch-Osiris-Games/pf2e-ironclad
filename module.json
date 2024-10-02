@@ -1,0 +1,80 @@
+{
+  "name": "pf2e-ironclad",
+  "title": "PF2e Ironclad",
+  "description": "A module to implement the Ironclad class & associated options.",
+  "author": "Delioth",
+  "version": "1.0.1",
+  "compatibleCoreVersion": "12",
+  "minimumCoreVersion": "12",
+  "packs": [
+    {
+      "label": "Ironclad - Actions",
+      "type": "Item",
+      "name": "ironclad-actions",
+      "path": "./packs/ironclad-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-ironclad",
+      "private": false
+    },
+    {
+      "label": "Ironclad - Class",
+      "type": "Item",
+      "name": "ironclad-class",
+      "path": "./packs/ironclad-class.db",
+      "system": "pf2e",
+      "package": "pf2e-ironclad",
+      "private": false
+    },
+    {
+      "label": "Ironclad - Features",
+      "type": "Item",
+      "name": "ironclad-features",
+      "path": "./packs/ironclad-features.db",
+      "system": "pf2e",
+      "package": "pf2e-ironclad",
+      "private": false
+    },
+    {
+      "label": "Ironclad - Feats",
+      "type": "Item",
+      "name": "ironclad-feats",
+      "path": "./packs/ironclad-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-ironclad",
+      "private": false
+    },
+    {
+      "label": "Ironclad - Effects",
+      "type": "Item",
+      "name": "ironclad-effects",
+      "path": "./packs/ironclad-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-ironclad",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-ironclad": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "ironclad": "Ironclad",
+          "reinforcement": {
+            "label": "Reinforcement",
+            "description": "A reinforcement is an additional armor layer designed to assist you during your adventuring. When you make your daily preparations, you can outfit your armor with a single reinforcement. The reinforcement stays attached until the next time you make daily preparations. Dismantling a reinforcement renders it useless, and you cannot install another reinforcement until you make your daily preparations. Unless otherwise stated, all reinforcements increase the bulk of your armor by 1.\nBecause reinforcements are so cumbersome, others are untrained in any armor with a reinforcement attached. Furthermore, many reinforcements require specific tools and materials to make. As a result, they are Uncommon in most parts of the world"
+          },
+          "responsive": {
+            "label": "Responsive",
+            "description": "Responsive armor is a special type of reinforcement. Responsive abilities do not require you to spend any actions in order to use - when the trigger is met, the reinforcement will provide its benefit. You may not choose to forgo the reinforcement's benefit to use at a later time"
+          }
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Delioth/foundry-pf2e-ironclad",
+  "manifest": "x",
+  "download": "x",
+  "minimumSystemVersion": "6.4"
+}
